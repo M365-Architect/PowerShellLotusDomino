@@ -303,7 +303,7 @@ else
 						$GroupSearchDoc = $GroupsView.GetNextDocument($GroupSearchDoc)
 					}
 				}
-				$PersonDocument = $PeopleView.GetNexttDocument($PersonDocument)
+				$PersonDocument = $PeopleView.GetNextDocument($PersonDocument)
 			}
 			
 			#case 3/3: Server - doesn't matter - will be ignored
