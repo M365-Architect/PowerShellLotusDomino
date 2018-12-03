@@ -319,7 +319,7 @@ else
 		$textToWrite = $GroupName + ";" + $GroupMembersString
 		$textToWrite | Out-File -FilePath $CSVOutFilePath -Encoding "UTF8" -Append
 		
-		$NotesDocument = $PeopleView.GetNextDocument($NotesDocument)
+		$NotesDocument = $GroupsView.GetNextDocument($NotesDocument)
 		
 	}
 	Tee-ToLogAndConsole -text ("Script execution finished - " + $count.ToString() + " groups exported") -textcolour 'Green'
