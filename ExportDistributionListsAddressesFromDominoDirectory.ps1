@@ -1,7 +1,7 @@
 ﻿#========================================================================
 # Created on:		06.05.2016 10:51
 # Created by:		Andreas Hähnel
-# Organization:		infoWAN Datenkommunikation GmbH
+# Organization:		
 # Filename:			ExportDistributionListsAddressesFromDominoDirectory.ps1
 # Script Version: 	0.1
 #========================================================================
